@@ -1,0 +1,70 @@
+/*重置，初始化*/
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,p,table,tr,td,form,dl,dt,dd,a,img,span,strong,em,b,i,label,input,select,option,textarea{margin: 0;padding: 0;}
+li{list-style: none;}
+a{color: #000; text-decoration: none;}
+a:hover{color:#e93030;}
+img{border: 0; vertical-align: top;}
+em,i{font-style: normal;}
+h1,h2,h3,h4,h5,h6,strong,b{font-weight: normal;}
+input,textarea,select,area{outline: none;/*高亮*/}
+/*功能*/
+.clearfix:before,.clearfix:after{content: " "; display: table;}
+.clearfix:after{clear:both;}
+.FL{float:left;}
+.FR{float:right;}
+
+.ellipsis{ white-space: nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+.overflow{overflow:hidden;}
+.overflowText{overflow: hidden; text-indent:-99em; }
+
+body{ font-family: "微软雅黑"; font-size: 0.14rem; }
+input[type="button"],input[type="submit"],input[type="file"],button{
+	cursor: pointer;
+	-webkit-appearance:none;/*去除IP按钮黄色渐变底色*/
+}
+.clearfix:before,.clearfix:after{
+	content: " ";
+	display: table;
+	}
+.clearfix:after{
+	clear: both;
+	}
+
+
+
+body{background-color: #001431;}
+header{background: url(../images/header-bg.jpg) center top no-repeat /100% auto;height: 2.6rem;}
+section h2{color: #fffc00;font-weight: 600;text-align: center;background: url(../images/section-tit-bg.png) center top no-repeat /100% auto;line-height: 0.6rem;
+font-size: 0.3rem;}
+.section-1{margin-bottom: 0.2rem;}
+.content{width: 6.17rem;/*height: 5.75rem;*/border: 0.01rem solid #00265c;box-shadow: 0 0 0.03rem 0 #0b2852;border-radius: 0.1rem;margin: 6px auto 0 auto;}
+.content-top{margin: 0.1rem 0 0 0.12rem;border-bottom: 0.01rem dashed #002f71;width: 5.95rem;}
+.pciture{float: left;}
+.pciture img{width: 1.7rem ;height: 2.5rem;}
+.describe{float: right;}
+.performer{margin: 0.05rem 0 0 0; font-size: 0.24rem; line-height: 0.36rem; color: #bababa;}
+.performer li{margin-bottom: 0.12rem;}
+.performer span{color: #0094e2;}
+.button{margin:0.02rem 0 0.16rem 0.77rem ;}
+.button button{height: 0.53rem; width: 2.95rem;background: url(../images/content-top-button.jpg) no-repeat center top /100% auto; border: 0;
+color: #ffe957; font-size: 0.28rem;padding: 0;/*text-align: center;*/line-height: 0.53rem;text-align: left;}
+.content-mid{margin: 0.15rem 0 0 0.12rem;border-bottom: 0.01rem dashed #002f71;width: 5.95rem;}
+.content-mid2{border: 0; margin: 0.15rem 0 0.12rem 0.12rem;}
+.content-mid dl{margin-bottom: 0.2rem;}
+.content-mid dt{color: #00a8ff;font-size: 0.24rem;padding-left: 0.35rem;background: url(../images/content-mid-icon.png)  no-repeat left 0.02rem /0.26rem 0.22rem;line-height: 0.26rem;margin-bottom: 0.07rem;}
+.content-mid dd{color: #ffe200;background: #0048b1; float: left;line-height: 0.40rem;font-size:0.24rem;margin-top: 0.08rem;margin-right: 0.07rem;padding: 0 0.07rem;}
+.content-btm h3{color: #ffeb00;line-height:0.29rem; font-size: 0.29rem;text-align: center;margin-top: 0.12rem;}
+.content-btm .button-2{margin: 0.12rem 0 0.18rem 0.58rem;}
+.content-btm .button2{float:left;height: 0.56rem;width: 2.51rem;background: url(../images/content-btm-button.jpg) no-repeat center top /100% auto; font-size:0.24rem; color: white;
+line-height: 0.56rem;margin-right: 0.08rem;padding-left:0.15rem  ;}
+
+.section-2{}
+.section-2 .content {border:0;margin-top: 0.07rem; box-shadow: 0 0 0 0 #0b2852;}
+.section-2 b{color: #00a8ff; font-size: 0.3rem; line-height: 0.35rem;}
+.section-2 .performer{margin: 0 0 0 0; }
+.performer .MT25{margin-bottom: 0.1rem;}
+.section-2 .pciture img{width: 1.2rem ;height: 1.7rem;}
+.section-2 .describe{float: left; margin-left: 0.2rem;}
+.section-2  .content-top{border-bottom: 0.01rem dashed #002f71; margin-top: 0.29rem;padding-bottom: 0.1rem;margin-bottom: 0.27rem;
+background:url(../images/arrow.jpg)no-repeat right center/ 0.17rem 0.35rem ;}
